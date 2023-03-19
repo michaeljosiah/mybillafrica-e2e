@@ -13,7 +13,7 @@ namespace SpecFlowProject1.PageObjects
 {
     public class GuestLogin
     {
-        private IWebDriver _browser;
+        private IWebDriver _browser; //added another comment
 
         public GuestLogin(IWebDriver browser)
         {
