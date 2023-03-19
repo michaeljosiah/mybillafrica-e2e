@@ -6,7 +6,7 @@ using TechTalk.SpecFlow;
 namespace MyBillAfricaDraft2.Hooks
 {
     [Binding]
-    public sealed class Hooks //this comment is just a test
+    public sealed class Hooks 
     {
         private readonly IObjectContainer _container;
         public Hooks(IObjectContainer container)
